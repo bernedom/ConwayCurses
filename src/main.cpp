@@ -51,6 +51,13 @@ void seedState(std::array<std::array<bool, MAX_X>, MAX_Y> &state) {
       ++x;
     }
   }
+
+  // create a simple glider
+  // state[0][2] = true;
+  // state[1][0] = true;
+  // state[1][2] = true;
+  // state[2][1] = true;
+  // state[2][2] = true;
 }
 
 int main(int, char **) {
